@@ -45,16 +45,9 @@ int[] Exponent (int[] arrey)
         startValue ++;
     }
     return arrey; 
-        int count = 1;
-        int value = value + cahe
-        while(count < exponent)
-        {
-            int cache = 0;
-            cache = cache * cache;
-            count ++;
-        }
+
 }
-//int exponent = 3;
+
 int number = CheckInput("Введите натуральное число");
 int[] arrey = new int[number];
 PrintArrey(Exponent(arrey));
